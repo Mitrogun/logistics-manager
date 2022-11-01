@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabelStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <caption>Table</caption>
+        <thead>
+            <tr>
+                <th scope="col">CommandNr</th>
+                <th scope="col">CommandDate</th>
+                <th scope="col">creditNoteNr</th>
+                <th scope="col">CreditNoteDate</th>
+                <th scope="col">Loading Company</th>
+                <th scope="col">Loading Adress</th>
+                <th scope="col">Unloading Company</th>
+                <th scope="col">Unloading Adress</th>
+                <th scope="col">KM</th>
+                <th scope="col">Price</th>
+                <th scope="col">Payment</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="CommandNr">4654412</td>
+                <td data-label="Command Date">04/01/2016</td>
+                <td data-label="CreditNoteNR">23123</td>
+                <td data-label="CreditNoteDate">3/31/2016</td>
+                <td data-label="Loading Company" class="lc">
+                    <span>Amazon</span>
+                    <span>Roma</span>
+                    <span>Asd</span>
+                    <span>Azon</span>
+                </td>
+                <td data-label="Loading Adress" class="la">
+                    <span>Amazon</span>
+                    <span>Roma</span>
+                    <span>Asd</span>
+                    <span>Azon</span>
+                </td>
+                <td data-label="Unloading Company" class="lb">
+                    <span>Amazon</span>
+                    <span>Roma</span>
+                    <span>Asd</span>
+                    <span>Azon</span>
+                </td>
+                <td data-label="Unloading Adress" class="ld">
+                    <span>Amazon</span>
+                    <span>Roma</span>
+                    <span>Asd</span>
+                    <span>Azon</span>
+                </td>
+                <td data-label="KM">650</td>
+                <td data-label="Price">$1,190</td>
+                <td data-label="Payment"><input type="checkbox" disabled></td>
+                <td>
+                    <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
+                    <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                </td>
+            </tr>
+            <tr>
+                <td data-label="CommandNr">4654412</td>
+                <td data-label="Command Date">04/01/2016</td>
+                <td data-label="CreditNoteNR">23123</td>
+                <td data-label="CreditNoteDate">3/31/2016</td>
+                <td data-label="Loading Company" class="lc">AmaZon</td>
+                <td data-label="Loading Adress" class="la">Zanvoort 16</td>
+                <td data-label="Unloading Company" class="lb">AmaZon</td>
+                <td data-label="Unloading Adress" class="ld">Zanvoort 16</td>
+                <td data-label="KM">650</td>
+                <td data-label="Price">$1,190</td>
+                <td data-label="Payment"><input type="checkbox"></td>
+                <td>
+                    <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
+                    <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                </td>
+            </tr>
+            <tr>
+                <td data-label="CommandNr">4654412</td>
+                <td data-label="Command Date">04/01/2016</td>
+                <td data-label="CreditNoteNR">23123</td>
+                <td data-label="CreditNoteDate"></td>
+                <td data-label="Loading Company" class="lc">AmaZon</td>
+                <td data-label="Loading Adress" class="lca"></td>
+                <td data-label="Unloading Company" class="lcb">AmaZon</td>
+                <td data-label="Unloading Adress" class="ld">Zanvoort 16</td>
+                <td data-label="KM">650</td>
+                <td data-label="Price">$1,190</td>
+                <td data-label="Payment"><input type="checkbox"></td>
+                <td>
+                    <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
+                    <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                </td>
+            </tr>
+            <tr>
+                <td data-label="CommandNr">4654412</td>
+                <td data-label="Command Date">04/01/2016</td>
+                <td data-label="CreditNoteNR">23123</td>
+                <td data-label="CreditNoteDate">3/31/2016</td>
+                <td data-label="Loading Company" class="lc">AmaZon</td>
+                <td data-label="Loading Adress" class="lca">Zanvoort 16</td>
+                <td data-label="Unloading Company" class="lcb">AmaZon</td>
+                <td data-label="Unloading Adress" class="ld">Zanvoort 16</td>
+                <td data-label="KM">650</td>
+                <td data-label="Price">$1,190</td>
+                <td data-label="Payment"><input type="checkbox"></td>
+                <td>
+                    <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
+                    <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a class="link" href="formTabel.html">
+        <button class="bn54">
+            <span class="bn54span">ADD Cursa</span>
+        </button>
+    </a>
+    <script src="tabel.js"></script>
+</body>
+
+</html>

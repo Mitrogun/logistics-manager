@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formTStyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Add Data</h2>
+        <form action="?" class="formTabel">
+            <div class="comannd">
+                <input type="text" name="commandNr" id="commandNr" placeholder="Nr Comanda" required />
+                <input type="date" name="commandDate" id="commandDate" placeholder="Data Comanda" required />
+            </div>
+
+            <div class="cNote">
+                <input type="text" name="creditNoteNr" id="noteNr" placeholder="Nr Nota Credit" required />
+                <input type="date" name="creditNoteDate" id="noteDate" placeholder="Data Nota Credit" required />
+            </div>
+
+            <input type="text" name="loadCompany" id="loadCompany" placeholder="Loading Company" required />
+
+            <input type="text" name="loadAdress" id="loadAdress" placeholder="Loading Adress" required />
+
+            <input type="text" name="unloadCompany" id="unloadCompany" placeholder="Unloading Company" required />
+
+            <input type="text" name="unloadAdress" id="unloadAdress" placeholder="Unloading Adress" required />
+
+            <input type="number" name="km" id="km" placeholder="km" required />
+
+            <input type="number" name="price" id="price" placeholder="price" required />
+
+            <div class="pStatus">
+                <label for="paymentStatus">Paid</label>
+                <input type="checkbox" name="paymentStatus" id="payment" required />
+            </div>
+
+            <input type="submit" id="submit">
+        </form>
+    </div>
+</body>
+
+</html>
