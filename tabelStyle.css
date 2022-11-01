@@ -2,6 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     line-height: 1.25;
     background-color: #3a7ca5;
+    text-align: center;
 }
 
 table {
@@ -40,17 +41,6 @@ table th {
     background-color: #fff;
 }
 
-.lc {
-    display: inline-flex;
-    flex-direction: column;
-}
-
-.ld {
-    display: inline-flex;
-    flex-direction: column;
-}
-
-
 .bn54 {
     margin-top: 3em;
     padding: 12px 20px;
@@ -58,7 +48,6 @@ table th {
     outline: none;
     text-decoration: none;
     border-radius: 50px;
-    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -84,6 +73,15 @@ table th {
 .bn54:hover .bn54span {
     animation: bn54storm 0.7s ease-in-out both;
     animation-delay: 0.06s;
+}
+
+.delete {
+    border: 1px solid #ce1515;
+    padding: 7px;
+    font-size: 16px;
+    display: inline-flex;
+    border-radius: 3px;
+    color: #ce1515;
 }
 
 @keyframes bn54rotate {
@@ -128,12 +126,6 @@ table th {
     100% {
         transform: translate3d(0, 0, 0) translateZ(0);
     }
-}
-
-.link {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
 }
 
 @media screen and (max-width: 600px) {

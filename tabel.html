@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <title>Document</title>
 </head>
 
 <body>
     <table>
-        <caption>Table</caption>
+        <caption>Truck Records</caption>
         <thead>
             <tr>
                 <th scope="col">CommandNr</th>
@@ -33,7 +34,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr id="row1" class="row">
                 <td data-label="CommandNr">4654412</td>
                 <td data-label="Command Date">04/01/2016</td>
                 <td data-label="CreditNoteNR">23123</td>
@@ -64,14 +65,14 @@
                 </td>
                 <td data-label="KM">650</td>
                 <td data-label="Price">$1,190</td>
-                <td data-label="Payment"><input type="checkbox" disabled></td>
-                <td>
-                    <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-                    <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                <td data-label="Payment"><input type="checkbox"></td>
+                <td data-label="Actions">
+                    <button value="Delete" class="delete" onclick="delete_row(1)">
+                        <ion-icon name="trash"></ion-icon>
+                    </button>
                 </td>
             </tr>
-            <tr>
+            <tr id="row2" class="row">
                 <td data-label="CommandNr">4654412</td>
                 <td data-label="Command Date">04/01/2016</td>
                 <td data-label="CreditNoteNR">23123</td>
@@ -83,13 +84,13 @@
                 <td data-label="KM">650</td>
                 <td data-label="Price">$1,190</td>
                 <td data-label="Payment"><input type="checkbox"></td>
-                <td>
-                    <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-                    <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                <td data-label="Actions">
+                    <button value="Delete" class="delete" onclick="delete_row(2)">
+                        <ion-icon name="trash"></ion-icon>
+                    </button>
                 </td>
             </tr>
-            <tr>
+            <tr id="row3">
                 <td data-label="CommandNr">4654412</td>
                 <td data-label="Command Date">04/01/2016</td>
                 <td data-label="CreditNoteNR">23123</td>
@@ -101,13 +102,13 @@
                 <td data-label="KM">650</td>
                 <td data-label="Price">$1,190</td>
                 <td data-label="Payment"><input type="checkbox"></td>
-                <td>
-                    <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-                    <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                <td data-label="Actions">
+                    <button value="Delete" class="delete" onclick="delete_row(3)">
+                        <ion-icon name="trash"></ion-icon>
+                    </button>
                 </td>
             </tr>
-            <tr>
+            <tr id="row4">
                 <td data-label="CommandNr">4654412</td>
                 <td data-label="Command Date">04/01/2016</td>
                 <td data-label="CreditNoteNR">23123</td>
@@ -119,10 +120,10 @@
                 <td data-label="KM">650</td>
                 <td data-label="Price">$1,190</td>
                 <td data-label="Payment"><input type="checkbox"></td>
-                <td>
-                    <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
-                    <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                    <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                <td data-label="Actions">
+                    <button value="Delete" class="delete" onclick="delete_row(4)">
+                        <ion-icon name="trash"></ion-icon>
+                    </button>
                 </td>
             </tr>
         </tbody>
