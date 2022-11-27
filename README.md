@@ -33,12 +33,11 @@ You can try the demo to use and test all the features.
 
   ### Some screenshots form the desktop version
 
-<p align="center" border-radius="10px" border="1px black">
+<p align="center" >
   <img src="https://user-images.githubusercontent.com/92033795/204139766-45824deb-827d-4983-b7d1-bc44b27d4b54.jpg" width="600" height="450" />
 </p>
-<p align="center" border="1px black">
-  <img src="https://user-images.githubusercontent.com/92033795/204138593-5a8824b5-8eb4-4b2e-9f8c-48fa5715ff87.jpg" width="800" height="600" />
-</p>
+<img align="left" src="https://user-images.githubusercontent.com/92033795/204138593-5a8824b5-8eb4-4b2e-9f8c-48fa5715ff87.jpg" width="800" height="600" />
+desktop page
 
 
 
