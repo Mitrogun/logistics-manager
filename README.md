@@ -24,19 +24,14 @@ You can try the demo to use and test all the features.
 - https://freight-logistics.herokuapp.com/
 
 ## Screenshots
-#### Some screenshots form the mobile version
-<p align="left" border="1px black">
+   ### Some screenshots form the mobile version
+<p align="left" style=" display:flex; justify-content:space-around;">
   <img src="https://user-images.githubusercontent.com/92033795/204138604-7bffb68a-46d1-41f0-b30d-451323510e2b.jpeg" width="200" height="400" />
-</p>
-- front page
-<p align="right" border="1px black">
   <img src="https://user-images.githubusercontent.com/92033795/204138601-b9bb7fbe-518b-43ba-bd45-6c6d1c6c8775.jpeg" width="200" height="400" />
-</p>
-<p align="left" border="1px black">
   <img src="https://user-images.githubusercontent.com/92033795/204138599-d089bd7e-ae21-43e2-bd02-f5902d4a9abc.jpeg" width="200" height="400" />
 </p>
 
-#### Some screenshots form the desktop version
+  ### Some screenshots form the desktop version
 
 <p align="center" border-radius="10px" border="1px black">
   <img src="https://user-images.githubusercontent.com/92033795/204139766-45824deb-827d-4983-b7d1-bc44b27d4b54.jpg" width="600" height="450" />
